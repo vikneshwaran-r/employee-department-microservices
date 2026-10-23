@@ -1,0 +1,17 @@
+# Maven build files
+**/target/
+
+# Eclipse / STS files
+**/.settings/
+**/.classpath
+**/.project
+
+# Local database credentials
+**/application.properties
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
