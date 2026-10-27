@@ -137,6 +137,79 @@ The APIs were tested using Postman.
 
 The tests included employee CRUD operations, department CRUD operations, employee details retrieval with department information, and handling invalid department IDs.
 
-## 12. Author
 
-Java Spring Boot Microservices Project
+## 12. Database Integration and Testing
+
+### Database Configuration
+- Employee Service uses MySQL database: `employee_db_1`
+- Department Service uses MySQL database: `department_db_1`
+
+### CRUD API Testing
+The following operations were tested using Postman:
+
+**Employee Service (Port 8081)**
+- Create Employee — POST
+- Get All Employees — GET
+- Update Employee — PUT
+- Delete Employee — DELETE
+
+**Department Service (Port 8082)**
+- Create Department — POST
+- Get All Departments — GET
+- Update Department — PUT
+- Delete Department — DELETE
+
+### Testing Evidence
+Postman screenshots are available as evidence of API testing and responses.
+
+### Result
+The application integrates Spring Boot microservices with MySQL databases and provides REST APIs for employee and department management.
+
+
+## 13. API and Database Testing Screenshots
+
+The following screenshots demonstrate CRUD API testing
+using Postman and database verification using MySQL Workbench.
+
+### Employee Service - Postman Testing
+
+#### 1. Create Employee
+![Create Employee](screenshots/01-Create-Employee.png)
+
+#### 2. Get All Employees
+![Get All Employees](screenshots/02-Get-All-Employees.png)
+
+#### 3. Update Employee
+![Update Employee](screenshots/03-Update-Employee.png)
+
+#### 4. Delete Employee
+![Delete Employee](screenshots/04-Delete-Employee.png)
+
+### Department Service - Postman Testing
+
+#### 5. Create Department
+![Create Department](screenshots/05-Create-Department.png)
+
+#### 6. Get All Departments
+![Get All Departments](screenshots/06-Get-All-Departments.png)
+
+#### 7. Update Department
+![Update Department](screenshots/07-Update-Department.png)
+
+#### 8. Delete Department
+![Delete Department](screenshots/08-Delete-Department.png)
+
+### MySQL Database Verification
+
+#### 9. Employee Database
+![Employee Database](screenshots/09-Employee-Database.png)
+
+#### 10. Department Database
+![Department Database](screenshots/10-Department-Database.png)
+
+## 14. Testing Summary
+
+- Employee CRUD APIs tested using Postman.
+- Department CRUD APIs tested using Postman.
+- MySQL database records verified using MySQL Workbench.
+- API and database testing screenshots documented.
